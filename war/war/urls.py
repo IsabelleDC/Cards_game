@@ -18,6 +18,7 @@ urlpatterns = patterns('',
     url(r'^blackjack/$', 'cards.views.blackjack', name='blackjack'),
     url(r'^poker/$', 'cards.views.poker', name='poker'),
     url(r'^war/$', 'cards.views.war', name='war'),
+    url(r'^realwar/$', 'cards.views.realwar', name='realwar'),
 
 
     url(r'^register/$', 'cards.views.register', name='register'),

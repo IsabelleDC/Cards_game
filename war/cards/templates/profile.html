@@ -3,6 +3,7 @@
 {% block content %}
     <p>Hi {{ user.username }}, you have 0 wins and 0 loses.</p>
     <p>Your email address is {{ user.email }}</p>
+    <p>Hi {{ user.username }}, you have {{ wins }} wins and {{ losses }} loses.</p>
 
     <h2>Past Games</h2>
     {% for game in games %}
