@@ -52,6 +52,7 @@ class Card(models.Model):
         return u"{} of {}s".format(self.rank, self.get_suit_display())
 
 
+
 class Player(AbstractUser):
     phone = models.CharField(max_length=12, help_text="Format should be: 650-111-2222")
 
