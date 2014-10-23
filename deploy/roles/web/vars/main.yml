@@ -1,0 +1,8 @@
+---
+
+virtualenv_path: "/home/ubuntu/.virtualenvs/playing"
+
+git_repo: https://github.com/IsabelleRey/Cards_game.git
+project_name: playing-cards
+project_path: "/home/ubuntu/{{ project_name }}"
+requirements_file: "{{ project_path }}/requirements.txt"
